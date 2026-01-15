@@ -1,0 +1,27 @@
+{
+  "name": "debug",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/dkozatc/coding_interview_playground#readme",
+  "bugs": {
+    "url": "https://github.com/dkozatc/coding_interview_playground/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkozatc/coding_interview_playground.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "npx ts-node ./index.ts"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.28.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
